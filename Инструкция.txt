@@ -1,0 +1,27 @@
+
+
+[!] Инструкция:
+- В папке "cfgs" указать токен группы. 
+- В папке "commands", откройте файл "check.py" и вставьте туда юзер токен.
+Сайт для получения токена: vkhost.github.io 
+Токен выбрать с Kate Mobile
+- В папке "commands", откройте файл "Register.py" и необходимо прописать ID вашей страницы, если же Вы хотите, чтобы какие-либо команды не были доступны другим пользователям, кроме Вас.
+
+
+Инструкция по запуску:
+
+Откройте cmd и поставьте путь к боту:
+
+Пример: cd C:\Users\Name\Desktop\wpion bot
+
+Далее установите:
+- pip install loguru
+- pip install -U https://github.com/timoniq/vkbottle/archive/v2.0.zip
+
+Q: Возникает ошибка Microsoft Visual C++ 14.0 is required.
+
+A: Установите Build Tools: https://go.microsoft.com/fwlink/?LinkId=691126
+ 
+Только после этого Вы сможете установить vkbottle.
+
+Документация: https://vkbottle.readthedocs.io/ru/latest/
